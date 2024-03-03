@@ -1,0 +1,14 @@
+@import "../../mixins.scss";
+.carousel-item{
+    width: 100%;
+    height: calc(100vh - 4rem);
+    img{
+        width: auto;
+        height: auto;
+        @include md {
+            width: 100%;
+            height: auto;
+        }
+        
+    }
+}
