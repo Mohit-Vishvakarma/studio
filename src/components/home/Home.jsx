@@ -1,23 +1,28 @@
 import React from 'react'
 import "./style.scss"
-import corousel1 from "../../assets/c1.jpg"
-import corousel2 from "../../assets/c2.jpg"
-import corousel3 from "../../assets/c3.webp"
+import whatsapp_logo from '../../assets/whatsapp.webp'
 
 
 function Home() {
   return (
-    <>
+    <div className='home'>
+
+    <div className="whatsapp">
+      <a href="https://wa.me/918889715148?text=Hii, Welcome to kelwa studio." target='_blank'>
+        <img src={whatsapp_logo} alt="" />
+      </a>
+    </div>
+
     <div id="carouselExampleFade" className="carousel slide carousel-fade " data-bs-ride="carousel" >
   <div className="carousel-inner ">
-    <div className="carousel-item active ">
-      <img src={corousel1} className="d-block w-100  " alt="..."/>
+    <div className="carousel-item corousel-img  bg-img1 active ">
+      {/* <img src={corousel1} className="d-block w-100  " alt="..."/> */}
     </div>
-    <div className="carousel-item ">
-      <img src={corousel2} className="d-block w-100  " alt="..."/>
+    <div className="carousel-item corousel-img bg-img2 ">
+      {/* <img src={corousel2} className="d-block w-100  " alt="..."/> */}
     </div>
-    <div className="carousel-item">
-      <img src={corousel3} className="d-block w-100  " alt="..."/>
+    <div className="carousel-item corousel-img bg-img3">
+      {/* <img src={corousel3} className="d-block w-100  " alt="..."/> */}
     </div>
   </div>
   <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
@@ -29,7 +34,7 @@ function Home() {
     <span className="visually-hidden">Next</span>
   </button>
 </div>
-    </>
+    </div>
   )
 }
 

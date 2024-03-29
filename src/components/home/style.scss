@@ -1,14 +1,50 @@
 @import "../../mixins.scss";
-.carousel-item{
-    width: 100%;
-    height: calc(100vh - 4rem);
-    img{
-        width: auto;
-        height: auto;
+
+.carousel-inner{
+    height: auto;
+    @include md {
+        height: 100vh;
+    }
+}
+
+.bg-img1{
+        background-image: url('../../assets/c3c.jpg');
         @include md {
-            width: 100%;
-            height: auto;
+            background-image: url('../../assets/c3.webp');
+            height: 100%;
         }
-        
+}
+
+.bg-img2{
+    background-image: url('../../assets/w2c.jpg');
+    @include md {
+        background-image: url('../../assets/w2.jpg');
+    }
+
+}
+
+.bg-img3{
+    background-image: url('../../assets/c4.jpg');
+    @include md {
+        background-image: url('../../assets/c4.jpg');
+    }
+}
+
+.corousel-img {
+    height: 100vh;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.whatsapp{
+    img{
+            width : 60px;
+            position : fixed; 
+            bottom : 0px; 
+        @include md{
+            bottom : 30px; 
+            left:20px;
+        }
     }
 }
