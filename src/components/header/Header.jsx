@@ -1,7 +1,7 @@
 import React from 'react'
 import "./style.scss"
 import { SlMenu } from "react-icons/sl";
-import logo from "../../assets/logo1.png"
+import logo from "../../assets/logo.png"
 
 
 function Header() {
