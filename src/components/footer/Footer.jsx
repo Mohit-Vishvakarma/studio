@@ -1,11 +1,16 @@
 import React from 'react'
 import "./style.scss"
 
+
+
 function Footer() {
   return (
-    <div className="footer">
-      Footer
-    </div>
+    <>
+      <div className="footer">
+      <hr />
+        <p>Copyright 2024 Kelwa Studio </p>
+      </div>
+    </>
   )
 }
 

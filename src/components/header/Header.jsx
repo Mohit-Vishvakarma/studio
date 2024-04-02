@@ -2,6 +2,7 @@ import React from 'react'
 import "./style.scss"
 import { SlMenu } from "react-icons/sl";
 import logo from "../../assets/logo.png"
+import { Link } from 'react-router-dom';
 
 
 function Header() {
@@ -13,11 +14,11 @@ function Header() {
         <div className="navbar">
             <nav>
                 <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">about</a></li>
-                    <li><a href="">Services</a></li>
-                    <li><a href="">Gallery</a></li>
-                    <li><a href="">Contact</a></li>
+                    <li><Link to="">Home</Link></li>
+                    <li><Link to="about">about</Link></li>
+                    <li><Link to="services">Services</Link></li>
+                    <li><Link to="gallery">Gallery</Link></li>
+                    <li><Link to="contact">Contact</Link></li>
                 </ul>
             </nav>
         </div>

@@ -10,18 +10,16 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color:white;
-    box-shadow: 0 1px 4px rgba(146, 161, 176, 0.3);
-    z-index: 1000;
-    top: 0;
-    left: 0;
-    right: 0;
+    // background-color:white;
+    // box-shadow: 0 1px 4px rgba(146, 161, 176, 0.3);
+    transform: translateY(0);
+    z-index: 2;
+    
     .logo {
         margin-left: 10%;
         img {
             width: 4.5rem;
-            background-color: #fff;
-
+            // background-color: #fff;
         }
     }
     .menu-bar{

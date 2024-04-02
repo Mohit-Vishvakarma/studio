@@ -47,11 +47,6 @@ function Services() {
           <img src={cinematography} alt="" />
           <p>Wedding cinematography is the art of documenting a wedding by cinematic style. Our team is creative and expert in the proper use of lighting, various camera angles with different lenses, equipment for smooth shooting and solid editing. With our cinematic techniques, we are going top on best wedding cinematographers in delhi, india.</p>
         </div>
-
-       
-
-        
-
       </div>
 
       <div className='service'>
@@ -81,16 +76,7 @@ function Services() {
           <img src={webcast} alt="" />
           <p>Wedding cinematography is the art of documenting a wedding by cinematic style. Our team is creative and expert in the proper use of lighting, various camera angles with different lenses, equipment for smooth shooting and solid editing. With our cinematic techniques, we are going top on best wedding cinematographers in delhi, india.</p>
         </div>
-
-       
-
-        
-
       </div>
-
-      
-
-      
     </div>
   )
 }
