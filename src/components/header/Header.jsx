@@ -3,6 +3,8 @@ import "./style.scss"
 import { SlMenu } from "react-icons/sl";
 import logo from "../../assets/logo.png"
 import { Link } from 'react-router-dom';
+import { MdNavigateBefore } from 'react-icons/md';
+
 
 
 function Header() {
@@ -22,9 +24,11 @@ function Header() {
                 </ul>
             </nav>
         </div>
+        
         <div className="menu-bar">
-            <SlMenu />
+            <SlMenu/>
         </div>
+
     </div>
   )
 }

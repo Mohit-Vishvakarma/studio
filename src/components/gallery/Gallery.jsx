@@ -97,6 +97,7 @@ function Gallery() {
   return (
     <div className='container'>
     <h1>Image Gallery</h1>
+    
     <div className='gallery'>
       {
         data.map((item, index) => {
@@ -108,6 +109,7 @@ function Gallery() {
         })
       }
     </div>
+    
     </div>
   )
 }
